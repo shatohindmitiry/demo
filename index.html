@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanchard</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a class="header-logo" href="#">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <div class="container-nav">
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-list-item"><a class="header-link" href="#about">О нас</a></li>
+            <li class="header-list-item"><a class="header-link" href="#galary">Галерея</a></li>
+            <li class="header-list-item"><a class="header-link" href="#catalogy">Каталог</a></li>
+            <li class="header-list-item"><a class="header-link" href="#event">События</a></li>
+            <li class="header-list-item"><a class="header-link" href="#edition">Издания</a></li>
+            <li class="header-list-item"><a class="header-link" href="#projects">Проекты</a></li>
+            <li class="header-list-item"><a class="header-link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="sing-link-p"><a href="#" class="sing-link">Войти</a></p>
+      <!--<button aria-label="Войти" class="btn-sing">Войти</button>
+      <button aria-label="Меню" id="burger" class="btn-burger"></button>-->
+    </div>
+  </header>
+  <main>
+    <section class="first">
+      <div class="container container-first">
+        <div class="first-section">
+          <div class="swiper-container swiper-first">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url(img/First1.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(img/First2.jpg);"></div>
+              <div class="swiper-slide" style="background-image: url(img/First3.jpg);"></div>
+            </div>
+
+            <div class="first-block">
+              <div class="first-under-block">
+                <ul class="first-list">
+                  <li class="first-list-item"><a href="" class="first-link">Реализм</a></li>
+                  <li class="first-list-item"><a href="" class="first-link">Импрессионизм</a></li>
+                  <li class="first-list-item"><a href="" class="first-link">Постимпрессионизм</a></li>
+                  <li class="first-list-item"><a href="" class="first-link">Авангард</a></li>
+                  <li class="first-list-item"><a href="" class="first-link">Футуризм</a></li>
+                </ul>
+                <div class="first-search-block">
+                  <form class="first-search" action="handler.php">
+                    <button type="submit" aria-label="Поиск по сайту" class="btn-search"></button>
+                    <input class="first-search-form" type="text" placeholder="Поиск по сайту">
+                  </form>
+                </div>
+              </div>
+              <div class="first-section-block">
+                <h1 class="first-heading">Прикоснитесь к прекрасному</h1>
+                <p class="first-description">Мы вынуждены отталкиваться от того, что реализация <br> намеченных плановых
+                  заданий создаёт предпосылки для <br> новых предложений.</p>
+                <button aria-label="Подписаться на рассылку" class="btn btn-order">Подписаться на рассылку</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <p><a id="about"></a></p>
+        <div class="container-about">
+          <h1 class="about-title">О нас</h1>
+
+          <p class="about-paragraph">Ясность нашей позиции очевидна: семантический
+            разбор внешних противодействий однозначно определяет каждого участника как <br> способного принимать
+            собственные решения касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать,<br>
+            что высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации модели
+            развития.<br> Повседневная практика показывает, что высокое качество позиционных исследований создаёт
+            необходимость включения в<br> производственный план целого ряда внеочередных мероприятий с учётом комплекса
+            распределения внутренних резервов и ресурсов.<br> В рамках спецификации современных стандартов, действия
+            представителей оппозиции набирают популярность среди определенных<br> слоев населения, а значит, должны быть
+            разоблачены.</p>
+
+        </div>
+      </div>
+    </section>
+    <section class="galary">
+      <div class="container galary-background">
+        <p><a id="galary"></a></p>
+        <div class="container-galary">
+          <div class="galary-select">
+            <h1 class="select-title">Галерея</h1>
+            <p class="select-paragraph">Фильтровать по:</p>
+            <div class="select">
+              <select name="test">
+                <option value="">Автор</option>
+                <option value="">Автор1</option>
+                <option value="">Автор2</option>
+                <option value="">Автор3</option>
+              </select>
+              <select name="test">
+                <option value="">Направление</option>
+                <option value="">Направление1</option>
+                <option value="">Направление2</option>
+                <option value="">Направление3</option>
+              </select>
+              <select name="test">
+                <option value="">Техника</option>
+                <option value="">Техника1</option>
+                <option value="">Техника2</option>
+                <option value="">Техника3</option>
+              </select>
+            </div>
+            <p class="select-auto">
+              Вам предоставляется 10 бесплатных <br> скачиваний. Для увеличения количества <br> скачиваний <a
+                class="link-auto" href="">авторизуйтесь</a>, либо<br> воспользуйтесь лицензией.
+            </p>
+          </div>
+          <div class="swiper-container swiper-galary">
+            <!-- Additional required wrapper -->
+            <div class="button-galary">
+              <div class="swiper-button-prev swiper-button-prev-galary"></div>
+              <div class="swiper-pagination swiper-pagination-galary"></div>
+              <div class="swiper-button-next swiper-button-next-galary"></div>
+
+            </div>
+            <div class="swiper-wrapper swiper-wrapper-galary">
+              <!-- Slides -->
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary7.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary8.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary9.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary10.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary11.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary12.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary13.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary14.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary15.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary16.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary17.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary18.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary1.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary2.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary3.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary4.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary5.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary6.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary19.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary20.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary21.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary22.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary23.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary24.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary25.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary26.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary27.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary28.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary29.jpg);"></div>
+              <div class="swiper-slide slide-galary" style="background-image: url(img/galary30.jpg);"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-first', {
+      direction: 'horizontal',
+      loop: true,
+
+      /*autoplay: {
+        delay: 2000,
+        disableOnInteraction: false
+      },*/
+    });
+
+    var mySwiper1 = new Swiper('.swiper-galary', {
+      slidesPerView: 3,
+      slidesPerColumn: 2,
+      spaceBetween: 50,
+      slidesPerGroup: 3,
+      direction: 'horizontal',
+      navigation: {
+        nextEl: '.swiper-button-next-galary',
+        prevEl: '.swiper-button-prev-galary',
+      },
+      pagination: {
+        el: '.swiper-pagination-galary',
+        type: 'fraction',
+      },
+    });
+  </script>
+
+
+</body>
+
+</html>
